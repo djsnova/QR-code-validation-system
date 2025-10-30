@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <PeopleSimulation />
+      <div className="flex items-center justify-center w-screen min-h-screen bg-gray-100 text-black p-8 ">
+        <PeopleSimulation />
+      </div>
     </>
   )
 }
